@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolateria da Tia</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(222, 158, 158);
+        }
+        input{
+            width: 20%;
+            height: 30px;
+            font-size: 18px;
+            margin-bottom: 10px;
+            background-color: #ffffff;
+            border: solid #4a2a16 2px;
+            border-radius: 4px;
+            background-image: url(img/64673.png);
+            background-size: 10%;
+            background-repeat: no-repeat;
+            background-position: top 5px right 10px;
+            margin-top: 30px;
+            margin-right: 20px;
+            float: right;
+        }
+         header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+        main{
+            margin-top: 260px;
+        }
+        p{
+           text-align: justify;
+           line-height: 1.5em;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           padding: 10px 30px;
+           color: black;
+        }
+        .menu_top{
+            width: 100%;
+            height: 170px;
+            border-bottom: 3px solid rgb(222, 158, 158) ;
+            border-top: 10px solid rgb(222, 158, 158);
+            background-color:  rgb(186, 14, 14);
+        }
+        .top_esp{
+            width: 140px;
+            float: left;
+            padding: 10px;
+        }
+        .top_dir{
+            float: left;
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 100px;
+            color: white;
+            padding-left: 9%;
+            padding-top: 40px;
+        }
+        .menu_down{
+            background:white;;
+            height: 40px;      
+        }
+        .menu{
+            position: relative;
+            top: -10px;
+            padding: 10px;
+        }
+        .clear{
+            clear: both;
+        }
+        *{
+            margin: 0 auto;
+            padding: 0;
+        }
+        .menu{
+            background-color: rgba(138, 10, 10, 0.868);
+            width: 100%;
+            height: 40px;
+        }
+        .menu ul{
+            padding: 0;
+            max-width: 800px;
+        }
+        .menu ul li{          
+            background-color: rgb white;
+            color: rgb(255, 255, 255);;
+            float: left;
+            width: 150px;
+            height: 40px;
+            display: inline-block;
+            text-align: center;
+            line-height: 40px;
+            position: relative;
+        }
+        .menu ul li:hover{
+            background-color:white;
+        }
+       
+        .menu ul ul{
+            display: none;
+        }
+        .menu ul li:hover > ul{
+            display: block;
+        }
+       
+        .menu ul ul ul{
+            margin-left: 102px;
+            position: absolute;
+            top: 0px;
+           
+        }
+        .menu ul ul li{
+             background-color: white;
+        }
+        .menu ul ul li:hover{
+            background-color: white;
+
+        
+        }
+        .flat_esq{
+            float: left;
+            margin: 6.2%;
+        }
+        .flat_meio{
+            float: left;
+            margin: 6.2%;
+        }
+        .flat_dir{
+            float:left;
+            margin: 6.2%;
+        }
+        .clear{
+            clear: both;
+        }
+        .button{
+            margin: 10px;
+            border: #4a2a16 2px;
+            float:none;
+        }
+        .top11{
+        background-color:  white;
+        height: 60px;
+        padding: 40px;
+                }
+        .esq_1{
+        float: left;
+        width: 200px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #3d2a1b;
+                }
+        .esq_2 {
+        float: left;
+        width: 600px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #3d2a1b;
+        }
+        .dir_2{
+        float: right;
+        margin-right: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="menu_top">
+        <div class="top_esp">
+        <figure>
+        <img src="imG/v1051-08a.jpg" alt="logo" height="140px">
+        </figure>
+        </div>
+        <div class="top_dir">
+        CHOCOLATERIA DA TIA
+      <input class="pesq" type="text" placeholder="Pesquisa"> 
+        </div>
+        <div class="clear"></div>
+        <div class="menu_down">
+        <nav class="menu">
+            <a href="">
+            <ul>
+                <li>HOME</li>
+                <li>DOCES
+                    <ul>
+                        <li>350g</li>
+                        <li>500g</li>
+                        <li>1000g</li>
+                        <li>OUTROS
+                            <ul>
+                            <li>1500g</li>
+                            <li>2000g</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>OVOS</li>
+                <li>Kits</li>
+                <li>SOBRE</li>
+            </ul>
+            </a>
+        </nav>
+        </div>
+        <div class="clear"></div>
+        </header>
+         <main>
+            <div class="meio">
+                <img src="img/banner de pascoa.png" alt="banner" width="100%" style="margin-top: -40px;">
+            </div>
+            <div>
+                <figure class="flat_esq">
+                    <img src="img/pascoa ovos 1.png"  width="300" height="400" >
+                </figure>
+                <figure class="flat_meio">
+                    <img src="img/ovo pascoa 2.png"  width="300" height="400">
+                </figure>
+                <figure class="flat_dir">
+                    <img src="img/ovo pascoa 3.png"  width="300" height="400">
+                </figure>
+            </div>
+            <div class="clear"></div>
+            <div>
+                <figure class="flat_esq">
+                    <img src="img/ovo pascoa 4.png"  width="300" height="400">
+                </figure>
+                <figure class="flat_meio">
+                    <img src="img/ovo pascoa 5.png"  width="300" height="400">
+                </figure>
+                <figure class="flat_dir">
+                    <img src="img/ovo pascoa 6.png"  width="300" height="400">
+                </figure>
+            </div>
+            <div class="clear"></div>
+
+         </main>
+         <footer>
+            <div class="top11">
+            <div class="esq_1">
+            <dl>
+            <dt><h3>Entre em Contato</h3></dt>
+            <dd> ☎️ 14-12345.6789</dd>
+            <dd> ⚜️ contato@chocolateriadatia.com</dd>
+            </div>
+            <div class="esq_2">
+            <h2>
+            Rua do Limoeiro, nº888 Conselheiro Dantas <br> Santa Cruz do Rio Pardo SP
+            </h2>
+            </div>
+            <div class="dir_2">
+            <img src="img/coelho pascoa 2.png" width="100px">
+            </div>
+            </div>
+            </footer>
+</body>
+</html>
